@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <form class="numbers" name="calc" >
+        <input class="result" name="display">
+        <img src="https://img.icons8.com/ios-filled/50/null/clear-symbol.png" onclick="fa()"/>
+        <div class="row">
+            <input type="button" value="1" class="one" onclick="calc.display.value+=('1')">
+            <input type="button"  class="two" value="2" onclick="calc.display.value+='2'">
+            <input type="button"  class="three" value="3" onclick="calc.display.value+='3'">
+            <input type="button"  class="plus" value="+" onclick="calc.display.value+='+'">
+        </div>
+   
+        <div class="row">
+            <input type="button"  class="four" value="4" onclick="calc.display.value+='4'">
+            <input type="button"  class="five" value="5" onclick="calc.display.value+='5'">
+            <input type="button"  class="six" value="6" onclick="calc.display.value+='6'">
+            <input type="button"  class="sub" value="-" onclick="calc.display.value+='-'">
+        </div>
+  
+        <div class="row">
+            <input type="button" class="seven" value="7" onclick="calc.display.value+='7'">
+            <input type="button"  class="eight" value="8" onclick="calc.display.value+='8'">
+            <input type="button" class="nine" value="9" onclick="calc.display.value+='9'">
+            <input type="button"  class="multi" value="x" onclick="calc.display.value+='*'">
+        </div>
+ 
+        <div class="row">
+            <input type="button" class="c" value="C" onclick="calc.display.value=''">
+            <input type="button" class="zero" value="0" onclick="calc.display.value+='0'">
+            <input type="button" class="equl" value="=" >
+            <input type="button"  class="divid" value="/" onclick="calc.display.value+='/'">
+        </div>
+     
+       
+     
+        <script src="main.js"></script>
+</body>
+</html>

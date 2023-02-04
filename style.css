@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+
+}
+
+
+
+.numbers{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 10px;
+   
+   
+   
+
+}
+
+.result{
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 80%;
+    margin: 5px auto;
+    overflow: hidden;
+    padding: 0 20px;
+    
+}
+
+
+.row{
+    display:flex;
+    width: 80%;
+    margin: 1px auto;
+    flex-direction: row;
+}
+
+.row input{
+    cursor: pointer;
+    color:hsl(0, 0%, 100%);
+    font-size:50px;
+    height: 10%;
+    width: 24.05%;
+    border-radius: 10px;
+    margin:1px auto ;
+    
+}
+.numbers img{
+    cursor: pointer;
+    width:10%;
+    height: 10%;
+    position: absolute; 
+    right: 15%;
+    top: 5%;
+  
+}
+
+
+.equl{
+    background-color: green;
+}
+
+.c{
+    background-color: red;
+}
+
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero{
+    background-color: black;
+}
+
+.plus,.multi,.sub,.divid,.delete{
+    background-color:darkorchid;
+}
+
+
+
+@media (max-width:600px) {
+
+    .result{
+        height: 15px;
+        border: 1px solid;
+        border-radius: 8px;
+        width: 80%;
+        margin: 2px auto;
+        overflow: hidden;
+        padding: 0 5px;
+        
+    }
+    
+
+    
+    .row input{
+        cursor: pointer;
+        color:hsl(0, 0%, 100%);
+        font-size:15px;
+        height: 10%;
+        width: 24.05%;
+        border-radius: 10px;
+        margin:1px auto ;
+    }    
+}
+
+
